@@ -4,45 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="bg-gradient-to-r from-violet-200 to-pink-200">
     <header>
-      <h1>Odin Recipes</h1>
+      <h1
+        class="mt-4 mb-2 text-2xl text-center uppercase font-roboto font-r-black"
+      >
+        Odin Recipes
+      </h1>
+      <div class="mb-4 border-b-4 border-gray-600"></div>
     </header>
-    <main>
-      <ul>
-        <div>
-          <li>
-            <a href="recipes/lasagna.html"
-              ><img src="images/lasagna.png" alt="lasagna" />Lasagna</a
+    <main
+      class="flex flex-col items-center justify-center max-w-3xl mx-4 lg:max-w-full"
+    >
+      <ul class="lg:flex-row lg:flex-wrap lg:flex">
+        <div class="lg:w-1/2">
+          <li class="mr-4">
+            <a href="recipes/lasagna.html" class="font-roboto font-r-bold"
+              ><img
+                src="images/lasagna.png"
+                alt="lasagna"
+                class="rounded-2xl md:max-w-md lg:max-w-full"
+              />
+              <p class="mt-2 mb-4 text-lg text-center">Lasagna</p></a
             >
           </li>
         </div>
-        <div>
-          <li>
-            <a href="recipes/stuffedPeppers.html"
+        <div class="lg:w-1/2">
+          <li class="mr-4">
+            <a
+              href="recipes/stuffedPeppers.html"
+              class="font-roboto font-r-bold"
               ><img
                 src="images/stuffed_peppers.png"
                 alt="Stuffed Peppers"
-              />Stuffed Peppers</a
+                class="rounded-2xl md:max-w-md lg:max-w-full"
+              />
+              <p class="mt-2 mb-4 text-lg text-center">Stuffed Peppers</p></a
             >
           </li>
         </div>
-        <div>
-          <li>
-            <a href="recipes/chickenEnchiladas.html">
+        <div class="lg:w-1/2">
+          <li class="mr-4">
+            <a
+              href="recipes/chickenEnchiladas.html"
+              class="font-roboto font-r-bold"
+            >
               <img
                 src="images/chicken_enchiladas.png"
                 alt="Chicken Enchiladas"
-              />Chicken Enchiladas</a
+                class="rounded-2xl md:max-w-md lg:max-w-full"
+              />
+              <p class="mt-2 mb-4 text-lg text-center">Chicken Enchiladas</p></a
             >
           </li>
         </div>
       </ul>
     </main>
-    <footer>
-      Recipes from <a href="https://www.allrecipes.com/">All Recipes</a> Coded
-      by <a href="https://github.com/BusraKahraman">Büşra Kahraman</a>
+    <div class="mb-4 border-b-2 border-gray-600"></div>
+    <footer
+      class="mb-2 text-xs text-center text-gray-600 font-roboto font-r-light"
+    >
+      Recipes from
+      <a
+        href="https://www.allrecipes.com/"
+        class="text-purple-950 font-r-bold hover:underline visited:text-pink-700"
+        >All Recipes</a
+      >
+      Coded by
+      <a
+        href="https://github.com/BusraKahraman"
+        class="text-purple-950 font-r-bold hover:underline visited:text-pink-700"
+        >Büşra Kahraman</a
+      >
     </footer>
   </body>
 </html>
